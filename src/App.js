@@ -75,7 +75,7 @@ const App = () => {
   }
 
   return(
-    <div>
+    <div className='center'>
       <h1>Tic-Tac-Toe</h1>
       {show && <div>The winner is {winner}</div>}
       <div>
